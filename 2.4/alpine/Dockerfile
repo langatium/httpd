@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM resin/raspberry-pi-alpine:3.6
 
 # ensure www-data user exists
 RUN set -x \
